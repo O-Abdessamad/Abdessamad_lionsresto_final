@@ -1,9 +1,73 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: "Roboto";
 }
-.testlewl{
-    color: red;
-    text-align: center;
+@media (min-width:768px) {
+    header {
+        height: 10vh;
+
+        .nav-baar {
+            width: 75%;
+            .menubar {
+                li{
+                    position: relative;
+                    cursor: pointer;
+                }
+                li::before{
+                    content: "";
+                    background-color: #ff3d50;
+                    position: absolute;
+                    left: 0;
+                    bottom: -0.2rem;
+                    height: 3px;
+                    width: 0;
+                    color: #000;
+                    font-weight: 600;
+                    transition: 0.3s ease-in-out;
+                }
+                li:hover::before{
+                    content: "";
+                    background-color: #ff3d50;
+                    position: absolute;
+                    left: 0;
+                    bottom: -0.2rem;
+                    height: 3px;
+                    width: 100%;
+                }
+                li:hover{
+                    a:hover{
+                    color: #000 !important;
+                    transition: 0.2s ;
+                    }                  
+                    font-weight: 600;
+                }
+                .dropdown:hover .dropdown-menu {
+                    display: block;
+                    li:hover::before{
+                        content: "";
+                        background-color: #ff3d50;
+                        position: absolute;
+                        left: 0;
+                        bottom: -0.2rem;
+                        height: 3px;
+                        width: 0%;                        
+                    }
+                    .dropdown-item:hover{
+                        color: #ff3d50 !important;
+                        font-weight: bold;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        .nav-baar {
+            width: 95% !important;
+        }
+    }
+
 }

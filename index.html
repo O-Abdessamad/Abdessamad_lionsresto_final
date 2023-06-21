@@ -8,9 +8,114 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
+
 <body>
-    <h5>test</h5>
-    <h1>test2</h1>
+    <header class="d-flex justify-content-center align-items-center flex-column">
+        <nav class="d-flex justify-content-between align-items-center nav-baar">
+            <div>
+                <h2 class="font-roboto fw-bold">LionsResto<span class="text-coleur-conx">.</span></h2>
+            </div>
+            <!-- link menu -->
+            <div class="menubar d-none d-lg-block">
+                <ul class="nav font-roboto  ">
+                    <li class="nav-item">
+                        <a class="nav-link text-coleur-link-navv   active" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-coleur-link-navv  " href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-coleur-link-navv " href="#">Menu</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-coleur-link-navv  " href="#">Events</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-coleur-link-navv  " href="#">Chefs</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-coleur-link-navv  " href="#">Gallery</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle text-coleur-link-navv" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Drop Down
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link text-coleur-link-navv " href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center gap-10">
+            <!-- end link menu -->
+            <div class="conexion">
+                <button type="button" class="btn btn-danger rounded-5 ps-20 pe-20">Connexion</button>
+            </div>
+            <!-- menu-bergre -->
+            <div class="menu-bergre d-lg-none">
+                <nav class="navbar ">
+
+                    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header ">
+                            <div class="offcanvas-header "></div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link text-coleur-link-navv   active" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-coleur-link-navv  " href="#">About</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-coleur-link-navv " href="#">Menu</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-coleur-link-navv  " href="#">Events</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-coleur-link-navv  " href="#">Chefs</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-coleur-link-navv  " href="#">Gallery</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle text-coleur-link-navv" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Drop Down
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-coleur-link-navv " href="#">Contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- end menu-bergre -->
+        </div>
+        </nav>
+    </header>
 
 
 
