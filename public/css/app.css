@@ -20030,10 +20030,54 @@ textarea.form-control-lg {
     font-weight: bold;
     background-color: transparent;
   }
+  .conetue-cover {
+    width: 75%;
+  }
+  .conetue-cover .image-cover {
+    width: 50%;
+  }
+  .conetue-cover .image-cover img {
+    width: 100%;
+  }
+  .conetue-cover .text-cover {
+    width: 50%;
+  }
+  .conetue-cover .text-cover .text-cover1 h1, .conetue-cover .text-cover .text-cover1 .h1 {
+    font-size: 60px;
+    line-height: 90%;
+  }
+  .conetue-cover .text-cover .text-cover2 {
+    line-height: 50%;
+    margin: 30px 0;
+  }
 }
 @media (max-width: 768px) {
+  header {
+    height: 8vh;
+  }
   header .nav-baar {
     width: 95% !important;
+  }
+  .conetue-cover {
+    width: 95%;
+  }
+  .conetue-cover .image-cover {
+    width: 100%;
+  }
+  .conetue-cover .image-cover img {
+    width: 100%;
+  }
+  .conetue-cover .text-cover {
+    width: 100%;
+  }
+  .conetue-cover .text-cover .text-cover1 h1, .conetue-cover .text-cover .text-cover1 .h1 {
+    font-size: 15vw;
+    line-height: 7vh;
+    margin-top: 30px;
+  }
+  .conetue-cover .text-cover .text-cover2 {
+    line-height: 1vh;
+    margin: 30px 0;
   }
 }
 
