@@ -3,13 +3,19 @@
     margin: 0;
 }
 
+header {
+    width: 100%;
+    background-color: white;
+
+}
+
 @media (min-width:768px) {
     header {
         height: 10vh;
 
+
         .nav-baar {
             width: 75%;
-
             .menubar {
                 li {
                     position: relative;
@@ -129,6 +135,7 @@
 
         .text-cover {
             width: 100%;
+
             .text-cover1 {
                 h1 {
                     font-size: 15vw;
@@ -136,13 +143,15 @@
                     margin-top: 30px;
                 }
             }
+
             .text-cover2 {
                 line-height: 1vh;
                 margin: 50px 0;
             }
         }
     }
-    @media (max-width:426px){
+
+    @media (max-width:426px) {
         .text-cover1 {
             h1 {
                 line-height: 3vh !important;
