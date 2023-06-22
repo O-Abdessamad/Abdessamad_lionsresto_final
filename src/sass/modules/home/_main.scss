@@ -1,7 +1,9 @@
 .section-about {
-// ----------------- section about -----------------
+
+    // ----------------- section about -----------------
     .about {
         width: 75vw;
+
         .conetue-about {
             height: 70%;
             width: 100%;
@@ -21,9 +23,11 @@
 
             .texte-about {
                 width: 40%;
+
                 .paragraphe {
                     height: 50%;
                 }
+
                 .vedio-about {
                     height: 50%;
                     width: 100%;
@@ -31,28 +35,98 @@
                     background-image: url(../images/about-2.jpg);
                     background-size: cover;
                     background-position: center;
+
+                    .btn-play {
+                        cursor: pointer;
+                        box-shadow: 0 0 5px #d11210,
+                            0 0 20px #d11210,
+                            0 0 60px #d11210,
+                            0 0 150px #d11210;
+                    }
                 }
             }
 
         }
 
     }
-// -----------------end section about -----------------
+
+    // -----------------end section about -----------------
 }
+
 // ----------------- section-choose-lions -----------------
-.section-choose-lions{
-    .cardes{
+.section-choose-lions {
+    .cardes {
         width: 75vw;
-        .carde-1{
+
+        .carde-1 {
             width: 35%;
             height: 350px;
         }
-        .carde-2{
+
+        .carde-2 {
             width: 20%;
+            transition: all 0.3s;
         }
+
     }
 }
+
 // -----------------end section-choose-lions -----------------
+// ----------------- section-nembers -----------------
+.section-nembers {
+    background-image: url(../images/stats-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(7, 7, 7, 0.609);
+
+    .nembers {
+        width: 75vw;
+        height: 30vh;
+
+        .nembers1 {
+            width: 50%;
+        }
+
+    }
+}
+
+// -----------------end section-nembers -----------------
+// ----------------- section-menu -----------------
+.section-menu {
+    .menu {
+        width: 75vw;
+
+        .tablist-menu {
+            .btn-menu {
+                border: none;
+                border-bottom: 2px solid #a9a6a6;
+                background-color: transparent;
+                color: #a9a6a6;
+            }
+
+            .btn-menu:active {
+                border-bottom: 2px solid #f90404;
+                color: #f90404;
+            }
+        }
+
+        .breakfasts {
+
+            .breakfast {
+                padding: 30px;
+
+                .image-menu {
+                    height: 300px;
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+}
+
+// -----------------end section-menu -----------------
 
 
 
@@ -64,80 +138,149 @@
 
 
 
-@media (min-width:768px) {}
+@media (min-width:768px) {
+    .carde-2:hover {
+        transform: scale(1.1);
+
+    }
+}
 
 @media (max-width:768px) {
 
-// ----------------- tablete section about -----------------
-.section-about {
-    .about {
-        width: 95vw;
-
-        .conetue-about {
-            height: 70%;
-            width: 100%;
-
-            .image-about {
-                width: 100%;
-            }
-
-            .texte-about {
-                width: 100%;
-
-                .paragraphe {
-                    height: 50%;
-                }
-
-                .vedio-about {
-                    height: 300px;
-                }
-            }
-
-        }
-    }
-}
-// ----------------- end tablete section about -----------------
-// ----------------- section-choose-lions -----------------
-.section-choose-lions{
-    .cardes{
-        width: 95vw;
-        .carde-1{
-            width: 100%;
-            height: 250px !important;
-        }
-        .carde-2{
-            width: 100%;
-        }
-    }
-}
-// -----------------end section-choose-lions -----------------
-
-@media (max-width:426px) {
-
-// ----------------- telephone section about -----------------
+    // ----------------- tablete section about -----------------
     .section-about {
         .about {
-            width: 100vw;
+            width: 95vw;
 
-            .paragraphe {
-                padding: 5px;
-                font-size: 15px;
+            .conetue-about {
+                height: 70%;
+                width: 100%;
+
+                .image-about {
+                    width: 100%;
+                }
+
+                .texte-about {
+                    width: 100%;
+
+                    .paragraphe {
+                        height: 50%;
+                    }
+
+                    .vedio-about {
+                        height: 300px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    // ----------------- end tablete section about -----------------
+    // ----------------- section-choose-lions -----------------
+    .section-choose-lions {
+        .cardes {
+            width: 95vw;
+
+            .carde-1 {
+                width: 100%;
+                height: 250px !important;
+            }
+
+            .carde-2 {
+                width: 100%;
+            }
+        }
+    }
+
+    // -----------------end section-choose-lions -----------------
+    // ----------------- section-nembers -----------------
+    .section-nembers {
+        .nembers {
+            width: 95vw;
+            height: 35vh;
+
+            .nembers1 {
+                width: 100%;
+                padding: 20px 0;
             }
 
         }
     }
-   
-// ----------------- end telephone section about -----------------
-// ----------------- section-choose-lions -----------------
-.section-choose-lions{
-    .cardes{
-        .carde-1{
-            height: 350px !important;
+
+    // -----------------end section-nembers -----------------
+    // ----------------- section-menu -----------------
+    .section-menu {
+        .menu {
+            width: 95vw;
+
+            .breakfasts {
+                .breakfast {
+                    .image-menu {
+                        height: 500px;
+                        width: 500px;
+                    }
+                }
+            }
         }
+
     }
-}
 
-// -----------------end section-choose-lions -----------------
+    // -----------------end section-menu -----------------
 
-}
+
+    @media (max-width:426px) {
+
+        // ----------------- telephone section about -----------------
+        .section-about {
+            .about {
+                width: 100vw;
+
+                .paragraphe {
+                    padding: 5px;
+                    font-size: 15px;
+                }
+
+            }
+        }
+
+        // ----------------- end telephone section about -----------------
+        // ----------------- section-choose-lions -----------------
+        .section-choose-lions {
+            .cardes {
+                .carde-1 {
+                    height: 350px !important;
+                }
+            }
+        }
+
+        // -----------------end section-choose-lions -----------------
+        // ----------------- section-nembers -----------------
+        .section-nembers {
+            .nembers {
+                height: 50vh;
+            }
+        }
+
+        // -----------------end section-nembers -----------------
+        // ----------------- section-menu -----------------
+        .section-menu {
+            .menu {
+                width: 95vw;
+
+                .breakfasts {
+                    .breakfast {
+                        .image-menu {
+                            height: 300px;
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        // -----------------end section-menu -----------------
+
+    }
 }

@@ -20466,6 +20466,10 @@ header {
   background-size: cover;
   background-position: center;
 }
+.section-about .about .conetue-about .texte-about .vedio-about .btn-play {
+  cursor: pointer;
+  box-shadow: 0 0 5px #d11210, 0 0 20px #d11210, 0 0 60px #d11210, 0 0 150px #d11210;
+}
 
 .section-choose-lions .cardes {
   width: 75vw;
@@ -20476,8 +20480,50 @@ header {
 }
 .section-choose-lions .cardes .carde-2 {
   width: 20%;
+  transition: all 0.3s;
 }
 
+.section-nembers {
+  background-image: url(../images/stats-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(7, 7, 7, 0.609);
+}
+.section-nembers .nembers {
+  width: 75vw;
+  height: 30vh;
+}
+.section-nembers .nembers .nembers1 {
+  width: 50%;
+}
+
+.section-menu .menu {
+  width: 75vw;
+}
+.section-menu .menu .tablist-menu .btn-menu {
+  border: none;
+  border-bottom: 2px solid #a9a6a6;
+  background-color: transparent;
+  color: #a9a6a6;
+}
+.section-menu .menu .tablist-menu .btn-menu:active {
+  border-bottom: 2px solid #f90404;
+  color: #f90404;
+}
+.section-menu .menu .breakfasts .breakfast {
+  padding: 30px;
+}
+.section-menu .menu .breakfasts .breakfast .image-menu {
+  height: 300px;
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .carde-2:hover {
+    transform: scale(1.1);
+  }
+}
 @media (max-width: 768px) {
   .section-about .about {
     width: 95vw;
@@ -20508,6 +20554,21 @@ header {
   .section-choose-lions .cardes .carde-2 {
     width: 100%;
   }
+  .section-nembers .nembers {
+    width: 95vw;
+    height: 35vh;
+  }
+  .section-nembers .nembers .nembers1 {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .section-menu .menu {
+    width: 95vw;
+  }
+  .section-menu .menu .breakfasts .breakfast .image-menu {
+    height: 500px;
+    width: 500px;
+  }
 }
 @media (max-width: 768px) and (max-width: 426px) {
   .section-about .about {
@@ -20519,6 +20580,16 @@ header {
   }
   .section-choose-lions .cardes .carde-1 {
     height: 350px !important;
+  }
+  .section-nembers .nembers {
+    height: 50vh;
+  }
+  .section-menu .menu {
+    width: 95vw;
+  }
+  .section-menu .menu .breakfasts .breakfast .image-menu {
+    height: 300px;
+    width: 300px;
   }
 }
 
