@@ -127,6 +127,51 @@
 }
 
 // -----------------end section-menu -----------------
+// ----------------- section-nembers -----------------
+.section-chef {
+    .chef {
+        width: 75vw;
+
+        .chef-cardes {
+            width: 100%;
+
+            .card2-1 {
+                width: 30%;
+                height: 600px;
+                transition: all 0.4s;
+                border-radius: 10px;
+                .chef-image {
+                    width: 100%;
+                    height: 70%;
+                    border-radius: 10px;
+
+                }
+                .imgchef1{
+                    background-image: url(../images/chefs/chefs-1.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                .imgchef2{
+                    background-image: url(../images/chefs/chefs-2.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                .imgchef3{
+                    background-image: url(../images/chefs/chefs-3.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .chef-texte {
+                    width: 100%;
+                    height: 30%;
+                }
+            }
+        }
+    }
+
+}
+// -----------------end section-nembers -----------------
 
 
 
@@ -141,7 +186,10 @@
 @media (min-width:768px) {
     .carde-2:hover {
         transform: scale(1.1);
-
+    }
+    .card2-1:hover {
+        transform: scale(1.05);
+        cursor: pointer;
     }
 }
 
@@ -225,8 +273,22 @@
         }
 
     }
-
     // -----------------end section-menu -----------------
+// ----------------- section-nembers -----------------
+.section-chef {
+    .chef {
+        width: 95vw;
+        .chef-cardes {
+            width: 100%;
+            .card2-1 {
+                width: 48%;
+                height: 600px;                
+            }
+        }
+    }
+
+}
+// -----------------end section-nembers -----------------
 
 
     @media (max-width:426px) {
@@ -279,8 +341,22 @@
             }
 
         }
-
         // -----------------end section-menu -----------------
+// ----------------- section-nembers -----------------
+.section-chef {
+    .chef {
+        width: 95vw;
+        .chef-cardes {
+            width: 100%;
+            .card2-1 {
+                width: 98%;
+                height: 600px;                
+            }
+        }
+    }
+
+}
+// -----------------end section-nembers -----------------
 
     }
 }

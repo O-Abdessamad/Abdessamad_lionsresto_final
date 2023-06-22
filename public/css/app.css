@@ -20519,9 +20519,50 @@ header {
   width: 300px;
 }
 
+.section-chef .chef {
+  width: 75vw;
+}
+.section-chef .chef .chef-cardes {
+  width: 100%;
+}
+.section-chef .chef .chef-cardes .card2-1 {
+  width: 30%;
+  height: 600px;
+  transition: all 0.4s;
+  border-radius: 10px;
+}
+.section-chef .chef .chef-cardes .card2-1 .chef-image {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+.section-chef .chef .chef-cardes .card2-1 .imgchef1 {
+  background-image: url(../images/chefs/chefs-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.section-chef .chef .chef-cardes .card2-1 .imgchef2 {
+  background-image: url(../images/chefs/chefs-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.section-chef .chef .chef-cardes .card2-1 .imgchef3 {
+  background-image: url(../images/chefs/chefs-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.section-chef .chef .chef-cardes .card2-1 .chef-texte {
+  width: 100%;
+  height: 30%;
+}
+
 @media (min-width: 768px) {
   .carde-2:hover {
     transform: scale(1.1);
+  }
+  .card2-1:hover {
+    transform: scale(1.05);
+    cursor: pointer;
   }
 }
 @media (max-width: 768px) {
@@ -20569,6 +20610,16 @@ header {
     height: 500px;
     width: 500px;
   }
+  .section-chef .chef {
+    width: 95vw;
+  }
+  .section-chef .chef .chef-cardes {
+    width: 100%;
+  }
+  .section-chef .chef .chef-cardes .card2-1 {
+    width: 48%;
+    height: 600px;
+  }
 }
 @media (max-width: 768px) and (max-width: 426px) {
   .section-about .about {
@@ -20590,6 +20641,16 @@ header {
   .section-menu .menu .breakfasts .breakfast .image-menu {
     height: 300px;
     width: 300px;
+  }
+  .section-chef .chef {
+    width: 95vw;
+  }
+  .section-chef .chef .chef-cardes {
+    width: 100%;
+  }
+  .section-chef .chef .chef-cardes .card2-1 {
+    width: 98%;
+    height: 600px;
   }
 }
 
