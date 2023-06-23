@@ -173,7 +173,7 @@
 }
 
 // -----------------end section-nembers -----------------
-// ----------------- section-choose-lions -----------------
+// ----------------- section-form1 -----------------
 .section-form1{
     .form1{
         width: 75vw;
@@ -198,7 +198,26 @@
 
 }
 
-// -----------------end section-choose-lions -----------------
+// -----------------end section-form1 -----------------
+// ----------------- section-form1 -----------------
+.section-contact{
+    .contact{
+        width: 75vw;
+        .map{
+            width: 100%;
+            height: 30vh;
+        }
+        .contact-form{
+            height: 70vh;
+            .info{
+                width: 49%;
+            }
+        }
+    }    
+
+}
+
+// -----------------end section-form1 -----------------
 
 
 
@@ -216,6 +235,9 @@
     .card2-1:hover {
         transform: scale(1.05);
         cursor: pointer;
+    }
+    .input-cont{
+        width: 48%;
     }
 }
 
@@ -337,8 +359,22 @@
     }
 
 }
-
 // -----------------end section-form1 -----------------
+// ----------------- section-contact -----------------
+.section-contact{
+    .contact{
+        width: 95vw;
+        .contact-form{
+            height: 70vh;
+            .info{
+                width: 48%;
+            }
+        }
+    }    
+
+}
+
+// -----------------end section-contact -----------------
 
 
     @media (max-width:426px) {
@@ -428,6 +464,20 @@
 
 }
 // -----------------end section-form1 -----------------
+// ----------------- section-contact -----------------
+.section-contact{
+    .contact{
+        .contact-form{
+            height: 105vh;
+            .info{
+                width: 100%;
+            }
+        }
+    }    
+
+}
+
+// -----------------end section-contact -----------------
 
     }
 }
