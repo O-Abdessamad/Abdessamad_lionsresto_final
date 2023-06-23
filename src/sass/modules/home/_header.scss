@@ -4,7 +4,7 @@
 }
 
 body {
-    margin-top: 10vh;
+    margin-top: 100px;
 }
 
 .style-darkmod {
@@ -15,12 +15,13 @@ body {
 header {
     width: 100%;
     background-color: white;
+    z-index: 11;
 
 }
 
 @media (min-width:768px) {
     header {
-        height: 10vh;
+        height: 100px;
 
 
         .nav-baar {
@@ -125,7 +126,6 @@ header {
 
 @media (max-width:768px) {
     header {
-        height: 8vh;
 
         .nav-baar {
             width: 95% !important;
@@ -162,6 +162,9 @@ header {
     }
 
     @media (max-width:426px) {
+        body {
+            margin-top: 50px;
+        }
         .text-cover1 {
             h1 {
                 line-height: 3vh !important;

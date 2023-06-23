@@ -20405,7 +20405,7 @@ textarea.form-control-lg {
 }
 
 body {
-  margin-top: 10vh;
+  margin-top: 100px;
 }
 
 .style-darkmod {
@@ -20416,11 +20416,12 @@ body {
 header {
   width: 100%;
   background-color: white;
+  z-index: 11;
 }
 
 @media (min-width: 768px) {
   header {
-    height: 10vh;
+    height: 100px;
   }
   header .nav-baar {
     width: 75%;
@@ -20496,9 +20497,6 @@ header {
   }
 }
 @media (max-width: 768px) {
-  header {
-    height: 8vh;
-  }
   header .nav-baar {
     width: 95% !important;
   }
@@ -20525,6 +20523,9 @@ header {
   }
 }
 @media (max-width: 768px) and (max-width: 426px) {
+  body {
+    margin-top: 50px;
+  }
   .text-cover1 h1, .text-cover1 .h1 {
     line-height: 3vh !important;
   }
@@ -20621,6 +20622,8 @@ header {
   width: 100%;
 }
 .section-chef .chef .chef-cardes .card2-1 {
+  z-index: 1;
+  position: relative;
   width: 30%;
   height: 600px;
   transition: all 0.4s;
@@ -20650,7 +20653,35 @@ header {
   width: 100%;
   height: 30%;
 }
+.section-chef .chef .chef-cardes .card2-1 .chef-ocones {
+  position: absolute;
+  height: 250px;
+  width: 70px;
+  color: rgb(165, 162, 162);
+  background-color: rgba(255, 255, 255, 0.795);
+  top: 90px;
+  right: 0;
+  display: none;
+}
+.section-chef .chef .chef-cardes .card2-1 .show-anemation {
+  display: block;
+}
 
+.chef-ocones {
+  animation: myfirst 0.5s 1;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0% {
+    right: -70px;
+    top: 90px;
+  }
+  100% {
+    right: 0px;
+    top: 90px;
+  }
+}
 .section-form1 .form1 {
   width: 75vw;
 }
@@ -20726,6 +20757,14 @@ header {
 
 .iconeshadw:hover {
   font-size: 70px !important;
+}
+
+.forme-contactshadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4588235294);
+}
+
+.preorete {
+  z-index: 111;
 }
 
 @media (min-width: 768px) {

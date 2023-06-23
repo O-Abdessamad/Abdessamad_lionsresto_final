@@ -62,4 +62,24 @@ let btn_darkmod=document.querySelector(".btn-darkmod");
 
 btn_darkmod.addEventListener("click",()=>{
     div_body.classList.toggle("style-darkmod");
-})
+});
+
+
+
+
+
+let cardchef=document.querySelectorAll(".card2-1");
+
+for (let index = 0; index < cardchef.length; index++) {
+    let element = cardchef[index];
+    element.addEventListener("mouseover",()=>{
+        element.lastElementChild.classList.add("show-anemation");
+
+    })
+    element.addEventListener("mouseout",()=>{
+            element.lastElementChild.classList.remove("show-anemation");
+
+
+    })
+    
+}

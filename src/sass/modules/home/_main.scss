@@ -136,6 +136,8 @@
             width: 100%;
 
             .card2-1 {
+                z-index: 1;
+                position: relative;
                 width: 30%;
                 height: 600px;
                 transition: all 0.4s;
@@ -170,11 +172,36 @@
                     width: 100%;
                     height: 30%;
                 }
+
+                .chef-ocones {
+                    position: absolute;
+                    height: 250px;
+                    width: 70px;
+                    color: rgb(165, 162, 162);
+                    background-color: rgba(255, 255, 255, 0.795);
+                    top: 90px;
+                    right: 0;
+                    display: none;
+                }
+                .show-anemation{
+                    display: block;
+                }
             }
         }
     }
 
 }
+
+.chef-ocones {
+    animation: myfirst 0.5s 1;
+    animation-direction: alternate;
+}
+@keyframes myfirst {
+    0%   { right: -70px; top: 90px;}
+  
+    100% { right: 0px; top: 90px;}
+  }
+
 
 // -----------------end section-nembers -----------------
 // ----------------- section-form1 -----------------
@@ -297,6 +324,13 @@
 
 .iconeshadw:hover {
     font-size: 70px !important;
+}
+
+.forme-contactshadow {
+    box-shadow: 0 0 5px #00000075,
+}
+.preorete{
+    z-index: 111;
 }
 
 // ------ end hovers -------------
