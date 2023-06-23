@@ -140,23 +140,27 @@
                 height: 600px;
                 transition: all 0.4s;
                 border-radius: 10px;
+
                 .chef-image {
                     width: 100%;
                     height: 70%;
                     border-radius: 10px;
 
                 }
-                .imgchef1{
+
+                .imgchef1 {
                     background-image: url(../images/chefs/chefs-1.jpg);
                     background-size: cover;
                     background-position: center;
                 }
-                .imgchef2{
+
+                .imgchef2 {
                     background-image: url(../images/chefs/chefs-2.jpg);
                     background-size: cover;
                     background-position: center;
                 }
-                .imgchef3{
+
+                .imgchef3 {
                     background-image: url(../images/chefs/chefs-3.jpg);
                     background-size: cover;
                     background-position: center;
@@ -174,22 +178,27 @@
 
 // -----------------end section-nembers -----------------
 // ----------------- section-form1 -----------------
-.section-form1{
-    .form1{
+.section-form1 {
+    .form1 {
         width: 75vw;
-        .form1-image{
+
+        .form1-image {
             width: 35%;
             height: 500px;
         }
-        .form1-form{
+
+        .form1-form {
             width: 65%;
             height: 500px;
-            .form-stayle{
+
+            .form-stayle {
                 width: 90%;
-                .form-control{
+
+                .form-control {
                     width: 30%;
                 }
-                .textarea{
+
+                .textarea {
                     width: 100%;
                 }
             }
@@ -200,28 +209,70 @@
 
 // -----------------end section-form1 -----------------
 // ----------------- section-form1 -----------------
-.section-contact{
-    .contact{
+.section-contact {
+    .contact {
         width: 75vw;
-        .map{
+
+        .map {
             width: 100%;
             height: 30vh;
         }
-        .contact-form{
+
+        .contact-form {
             height: 70vh;
-            .info{
+
+            .info {
                 width: 49%;
             }
         }
-    }    
+    }
 
 }
 
 // -----------------end section-form1 -----------------
 
+// ----------------- section-events -----------
+.section-events{
+    .events{
+        width: 75vw;
+    }
+}
+// ----------------- end section-events -----------
+// ----------------- section-events -----------
+.section-gallery{
+    .gallery{
+        width: 75vw;
+    }
+}
+// ----------------- end section-events -----------
 
 
 
+
+
+
+
+
+
+
+
+// ------ hovers -------------
+.btn-bookchadow {
+    cursor: pointer;
+    box-shadow: 0 0 7px #d11210,
+}
+.btn-bookchadow:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #d11210,
+}
+.btn-cox:hover{
+    background-color: #d46563 !important;
+
+}
+.iconeshadw:hover{
+    font-size: 70px !important;
+}
+// ------ end hovers -------------
 
 
 
@@ -232,12 +283,30 @@
     .carde-2:hover {
         transform: scale(1.1);
     }
+
     .card2-1:hover {
         transform: scale(1.05);
         cursor: pointer;
     }
-    .input-cont{
+
+    .input-cont {
         width: 48%;
+    }
+
+    .contact {
+        width: 75vw;
+
+        .map {
+            width: 100%;
+            height: 30vh;
+        }
+
+        .contact-form {
+
+            .info {
+                width: 49%;
+            }
+        }
     }
 }
 
@@ -321,60 +390,72 @@
         }
 
     }
+
     // -----------------end section-menu -----------------
-// ----------------- section-chef -----------------
-.section-chef {
-    .chef {
-        width: 95vw;
-        .chef-cardes {
-            width: 100%;
-            .card2-1 {
-                width: 48%;
-                height: 600px;                
+    // ----------------- section-chef -----------------
+    .section-chef {
+        .chef {
+            width: 95vw;
+
+            .chef-cardes {
+                width: 100%;
+
+                .card2-1 {
+                    width: 48%;
+                    height: 600px;
+                }
             }
         }
+
     }
 
-}
-// -----------------end section-chef -----------------
-// ----------------- section-form1 -----------------
-.section-form1{
-    .form1{
-        width: 95vw;
-        .form1-image{
-            width: 100%;
-        }
-        .form1-form{
-            width: 100%;
-            .form-stayle{
+    // -----------------end section-chef -----------------
+    // ----------------- section-form1 -----------------
+    .section-form1 {
+        .form1 {
+            width: 95vw;
+
+            .form1-image {
                 width: 100%;
-                .form-control{
+            }
+
+            .form1-form {
+                width: 100%;
+
+                .form-stayle {
+                    width: 100%;
+
+                    .form-control {
+                        width: 48%;
+                    }
+
+                    .textarea {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // -----------------end section-form1 -----------------
+    // ----------------- section-contact -----------------
+    .section-contact {
+        .contact {
+            width: 95vw;
+
+            .contact-form {
+                height: 70vh;
+
+                .info {
                     width: 48%;
                 }
-                .textarea{
-                    width: 100%;
-                }
             }
         }
+
     }
 
-}
-// -----------------end section-form1 -----------------
-// ----------------- section-contact -----------------
-.section-contact{
-    .contact{
-        width: 95vw;
-        .contact-form{
-            height: 70vh;
-            .info{
-                width: 48%;
-            }
-        }
-    }    
-
-}
-
-// -----------------end section-contact -----------------
+    // -----------------end section-contact -----------------
 
 
     @media (max-width:426px) {
@@ -427,57 +508,66 @@
             }
 
         }
-        // -----------------end section-menu -----------------
-// ----------------- section-nembers -----------------
-.section-chef {
-    .chef {
-        width: 95vw;
-        .chef-cardes {
-            width: 100%;
-            .card2-1 {
-                width: 98%;
-                height: 600px;                
-            }
-        }
-    }
 
-}
-// -----------------end section-nembers -----------------
-// ----------------- section-form1 -----------------
-.section-form1{
-    .form1{
-        .form1-image{
-            width: 100%;
-            height: 400px;
-        }
-        .form1-form{
-            width: 100%;
-            height: 600px;            
-            .form-stayle{
-                width: 100%;
-                .form-control{
+        // -----------------end section-menu -----------------
+        // ----------------- section-nembers -----------------
+        .section-chef {
+            .chef {
+                width: 95vw;
+
+                .chef-cardes {
                     width: 100%;
+
+                    .card2-1 {
+                        width: 98%;
+                        height: 600px;
+                    }
                 }
             }
-        }
-    }
 
-}
-// -----------------end section-form1 -----------------
-// ----------------- section-contact -----------------
-.section-contact{
-    .contact{
-        .contact-form{
-            height: 105vh;
-            .info{
-                width: 100%;
+        }
+
+        // -----------------end section-nembers -----------------
+        // ----------------- section-form1 -----------------
+        .section-form1 {
+            .form1 {
+                .form1-image {
+                    width: 100%;
+                    height: 400px;
+                }
+
+                .form1-form {
+                    width: 100%;
+                    height: 600px;
+
+                    .form-stayle {
+                        width: 100%;
+
+                        .form-control {
+                            width: 100%;
+                        }
+                    }
+                }
             }
+
         }
-    }    
 
-}
+        // -----------------end section-form1 -----------------
+        // ----------------- section-contact -----------------
+        .section-contact {
+            .contact {
+                .contact-form {
+                    height: 105vh;
 
-// -----------------end section-contact -----------------
+                    .info {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        // -----------------end section-contact -----------------
 
     }
 }

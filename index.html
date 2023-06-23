@@ -19,22 +19,22 @@
             <div class="menubar d-none d-lg-block">
                 <ul class="nav font-roboto  ">
                     <li class="nav-item">
-                        <a class="nav-link text-coleur-link-navv   active" href="#">Home</a>
+                        <a class="nav-link text-coleur-link-navv   active" href="#cover" >Home</a>
                     </li>
                     <li>
-                        <a class="nav-link text-coleur-link-navv  " href="#">About</a>
+                        <a class="nav-link text-coleur-link-navv  " href="#about">About</a>
                     </li>
                     <li>
-                        <a class="nav-link text-coleur-link-navv " href="#">Menu</a>
+                        <a class="nav-link text-coleur-link-navv " href="#menu">Menu</a>
                     </li>
                     <li>
-                        <a class="nav-link text-coleur-link-navv  " href="#">Events</a>
+                        <a class="nav-link text-coleur-link-navv  " href="#events">Events</a>
                     </li>
                     <li>
-                        <a class="nav-link text-coleur-link-navv  " href="#">Chefs</a>
+                        <a class="nav-link text-coleur-link-navv  " href="#chef">Chefs</a>
                     </li>
                     <li>
-                        <a class="nav-link text-coleur-link-navv  " href="#">Gallery</a>
+                        <a class="nav-link text-coleur-link-navv  " href="#gallery">Gallery</a>
                     </li>
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle text-coleur-link-navv" href="#" role="button"
@@ -48,14 +48,14 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="nav-link text-coleur-link-navv " href="#">Contact</a>
+                        <a class="nav-link text-coleur-link-navv " href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="d-flex align-items-center gap-10">
                 <!-- end link menu -->
                 <div class="conexion">
-                    <button type="button" class="btn btn-danger rounded-5 ps-20 pe-20">Connexion</button>
+                    <button type="button" class="btn btn-danger btn-cox rounded-5 ps-20 pe-20">Connexion</button>
                 </div>
                 <!-- menu-bergre -->
                 <div class="menu-bergre d-lg-none">
@@ -75,22 +75,22 @@
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                     <li class="nav-item">
-                                        <a class="nav-link text-coleur-link-navv   active" href="#">Home</a>
+                                        <a class="nav-link text-coleur-link-navv   active" href="#cover">Home</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link text-coleur-link-navv  " href="#">About</a>
+                                        <a class="nav-link text-coleur-link-navv  " href="#about">About</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link text-coleur-link-navv " href="#">Menu</a>
+                                        <a class="nav-link text-coleur-link-navv " href="#menu">Menu</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link text-coleur-link-navv  " href="#">Events</a>
+                                        <a class="nav-link text-coleur-link-navv  " href="#events">Events</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link text-coleur-link-navv  " href="#">Chefs</a>
+                                        <a class="nav-link text-coleur-link-navv  " href="#chef">Chefs</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link text-coleur-link-navv  " href="#">Gallery</a>
+                                        <a class="nav-link text-coleur-link-navv  " href="#gallery">Gallery</a>
                                     </li>
                                     <li class="dropdown">
                                         <a class="nav-link dropdown-toggle text-coleur-link-navv" href="#" role="button"
@@ -104,7 +104,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a class="nav-link text-coleur-link-navv " href="#">Contact</a>
+                                        <a class="nav-link text-coleur-link-navv " href="#contact">Contact</a>
                                     </li>
                                 </ul>
 
@@ -116,9 +116,8 @@
             </div>
         </nav>
     </header>
-    <div>.</div>
-    <section class="section-cover d-flex justify-content-center bg-coleur-cover pt-30 pb-30 mt-30 ">
-        <div
+    <section id="cover"  class="section-cover d-flex justify-content-center bg-coleur-cover pt-30 pb-30 mt-30 ">
+        <div 
             class="conetue-cover text-center text-lg-start d-lg-flex flex-lg-row-reverse justify-content-lg-between align-items-lg-center gap-10">
             <div class="image-cover ">
                 <img src="./public/images/hero-img.png" alt="">
@@ -134,10 +133,11 @@
                 </div>
 
                 <div class="botones">
-                    <button class="btn-book border-0 bg-coleur-conx text-light p-5 ps-30 pe-30 rounded-5">Book a
+                    <button class="btn-book btn-bookchadow  border-0 bg-coleur-conx text-light p-5 ps-30 pe-30 rounded-5">Book a
                         Table</button>
                     <button class="btn-book border-0 bg-coleur-cover p-5 ps-30 pe-30 rounded-5 "><i
-                            class="fa-regular fa-circle-play text-coleur-conx"></i> Watch Video</button>
+                            class="fa-regular fa-circle-play text-coleur-conx btn_openModal" id="modal22"></i> Watch
+                        Video</button>
 
                 </div>
             </div>
@@ -145,7 +145,8 @@
         </div>
     </section>
     <main>
-        <section class="section-about d-flex justify-content-center flex-column align-items-center pt-30 pb-30 mt-20 mb-20">
+        <section id="about"
+            class="section-about d-flex justify-content-center flex-column align-items-center pt-30 pb-30 mt-20 mb-20">
             <div class="about p-5">
                 <div class="titre-about text-center ">
                     <h6 class="text-coleur-link-navv ">ABOUT US</h6>
@@ -180,8 +181,8 @@
 
                         </div>
                         <div class="vedio-about d-flex justify-content-center align-items-center ">
-                            <div class="bg-light rounded-4 btn-play">
-                                <i class="fa-solid fa-circle-play fa-2xl text-coleur-conx fs-1 "></i>
+                            <div class="bg-light rounded-4 btn-play btn_openModal" id="modal1">
+                                <i class="fa-solid fa-circle-play fa-2xl text-coleur-conx fs-1 iconeshadw"></i>
                             </div>
                         </div>
 
@@ -189,7 +190,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-choose-lions d-flex justify-content-center align-items-center bg-coleur-cover p-10 pt-30 pb-30">
+        <section 
+            class="section-choose-lions d-flex justify-content-center align-items-center bg-coleur-cover p-10 pt-30 pb-30">
             <div class="cardes d-flex justify-content-between align-items-center flex-column flex-lg-row">
                 <div class="carde-1 bg-coleur-conx text-light p-20">
                     <div class="titre-carde-1">
@@ -266,7 +268,7 @@
             </div>
 
         </section>
-        <section class="section-menu d-flex justify-content-center align-items-center p-10">
+        <section id="menu" class="section-menu d-flex justify-content-center align-items-center p-10">
             <div class="menu p-10 d-flex justify-content-center align-items-center flex-column">
                 <div class="titre-menu text-center ">
                     <h6 class="text-coleur-link-navv ">OUR MENU</h6>
@@ -595,11 +597,20 @@
 
         </section>
         <br><br><br><br><br>
+
         <!-- section slid -->
-        <p class="text-center">sliiide</p>
+        <section id="events" class="section-events d-flex justify-content-center align-items-center">
+            <div class="events">
+                <div class="titre-events text-center ">
+                    <h6 class="text-coleur-link-navv ">EVENTS</h6>
+                    <h2 class="font-cover fs-1">SHARE <span class="text-coleur-conx">YOUR MOMENTS</span> IN OUR RESTAURANT</h2>
+                </div>
+            </div>
+
+        </section>
         <!-- end section slid -->
         <br><br><br><br><br>
-        <section class="section-chef d-flex justify-content-center align-items-center p-10 bg-coleur-cover pt-30 pb-30">
+        <section id="chef" class="section-chef d-flex justify-content-center align-items-center p-10 bg-coleur-cover pt-30 pb-30">
             <div class="chef ">
                 <div class="titre-chef text-center mb-20">
                     <h6 class="text-coleur-link-navv ">CHEF</h6>
@@ -649,8 +660,8 @@
 
             </div>
 
-        </section>        
-        <section class="section-form1 d-flex justify-content-center align-items-center p-10 pt-30 pb-30 flex-column">
+        </section>
+        <section id="contact" class="section-form1 d-flex justify-content-center align-items-center p-10 pt-30 pb-30 flex-column">
             <div class="titre-chef text-center mb-20">
                 <h6 class="text-coleur-link-navv ">BOOK A TABLE</h6>
                 <h2 class="font-cover fs-1">BOOK <span class="text-coleur-conx">YOUR STAY</span> WITH US</h2>
@@ -696,23 +707,35 @@
         </section>
         <br><br><br><br><br>
         <!-- section slid -->
-        <p class="text-center">sliiide2</p>
+        <section class="section-gallery d-flex justify-content-center align-items-center bg-coleur-cover">
+            <div class="gallery">
+                <div class="titre-gallery text-center ">
+                    <h6 class="text-coleur-link-navv ">GALLERY</h6>
+                    <h2 class="font-cover fs-1">CHECK <span class="text-coleur-conx">OUR GALLERY</span></h2>
+                </div>
+            </div>
+
+        </section>
         <!-- end section slid -->
         <br><br><br><br><br>
-        <section class="section-contact d-flex justify-content-center align-items-center flex-column">
+        <section class="section-contact d-flex justify-content-center align-items-center flex-column pb-lg-30 ">
             <div class="titre-chef text-center mb-20">
                 <h6 class="text-coleur-link-navv ">CONTACT</h6>
                 <h2 class="font-cover fs-1">NEED HELP? <span class="text-coleur-conx">CONTACT US</span> </h2>
             </div>
-            <div class="contact">
+            <div class="contact mb-lg-30 pb-lg-30 ">
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13292.233815653803!2d-7.544151442813582!3d33.603787773262574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cdb2f812837f%3A0xbbcfc74fbc11b2d9!2sLionsGeek!5e0!3m2!1sfr!2sma!4v1687483127479!5m2!1sfr!2sma" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13292.233815653803!2d-7.544151442813582!3d33.603787773262574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cdb2f812837f%3A0xbbcfc74fbc11b2d9!2sLionsGeek!5e0!3m2!1sfr!2sma!4v1687483127479!5m2!1sfr!2sma"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="contact-form">
                     <div class="infos  pt-30 pb-30 d-flex justify-content-between align-items-center flex-wrap gap-20">
                         <div class="info d-flex justify-content-start align-items-center p-20 bg-coleur-cover gap-10">
                             <div class="info-icone bg-coleur-conx p-20 rounded-circle">
-                                <i class="fa-solid fa-map-location-dot fa-2xl text-light"></i>                            </div>
+                                <i class="fa-solid fa-map-location-dot fa-2xl text-light"></i>
+                            </div>
                             <div class="info-texte">
                                 <h4 class="m-0">Our Address</h4>
                                 <p>Lorem ipsum dolor sit amet.</p>
@@ -720,7 +743,8 @@
                         </div>
                         <div class="info d-flex justify-content-start align-items-center p-20 bg-coleur-cover gap-10">
                             <div class="info-icone text-light bg-coleur-conx p-20 rounded-circle">
-                                <i class="fa-regular fa-envelope fa-2xl "></i>                            </div>
+                                <i class="fa-regular fa-envelope fa-2xl "></i>
+                            </div>
                             <div class="info-texte">
                                 <h4 class="m-0">Email Us</h4>
                                 <p>Lorem ipsum dolor sit amet.</p>
@@ -728,7 +752,8 @@
                         </div>
                         <div class="info d-flex justify-content-start align-items-center p-20 bg-coleur-cover gap-10">
                             <div class="info-icone text-light bg-coleur-conx p-20 rounded-circle">
-                                <i class="fa-solid fa-phone fa-2xl"></i>                            </div>
+                                <i class="fa-solid fa-phone fa-2xl"></i>
+                            </div>
                             <div class="info-texte">
                                 <h4 class="m-0">Phone</h4>
                                 <p>Lorem ipsum dolor sit amet.</p>
@@ -736,7 +761,8 @@
                         </div>
                         <div class="info d-flex justify-content-start align-items-center p-20 bg-coleur-cover gap-10">
                             <div class="info-icone text-light bg-coleur-conx p-20 rounded-circle">
-                                <i class="fa-solid fa-square-share-nodes fa-2xl"></i>                            </div>
+                                <i class="fa-solid fa-square-share-nodes fa-2xl"></i>
+                            </div>
                             <div class="info-texte">
                                 <h4 class="m-0">Opening Hours</h4>
                                 <p>Lorem ipsum dolor sit amet.</p>
@@ -744,7 +770,8 @@
                         </div>
                     </div>
                     <form action="">
-                        <div class="div-input-contact d-flex justify-content-between align-items-center flex-wrap gap-20">
+                        <div
+                            class="div-input-contact d-flex justify-content-between align-items-center flex-wrap gap-20">
                             <input type="email" class="form-control input-cont" id="exampleFormControlInput1"
                                 placeholder="Your Name">
                             <input type="email" class="form-control input-cont" id="exampleFormControlInput1"
@@ -755,13 +782,13 @@
                                 placeholder="Message"></textarea>
                         </div>
                         <div class="btn-form text-center mt-20">
-                            <button
-                                class="btn-book border-0 bg-coleur-conx text-light p-5 ps-30 pe-30 rounded-5">Send Message</button>
+                            <button class="btn-book border-0 bg-coleur-conx text-light p-5 ps-30 pe-30 rounded-5">Send
+                                Message</button>
                         </div>
 
                     </form>
-                    
-                    
+
+
 
                 </div>
 
@@ -772,7 +799,7 @@
 
 
     </main>
-    <footer class="bg-coleur-footer d-flex justify-content-center align-items-center p-30">
+    <footer class="bg-coleur-footer d-flex justify-content-center align-items-center flex-column p-30 mt-30">
         <div class="foooter d-flex justify-content-between align-items-start flex-wrap gap-10 p-20 ">
             <div class="minifooter text-coleur-link-navv d-flex gap-10 ">
                 <div class="icone-footer">
@@ -786,7 +813,8 @@
             </div>
             <div class="minifooter text-coleur-link-navv d-flex gap-10 ">
                 <div class="icone-footer">
-                    <i class="fa-solid fa-phone fa-xl"></i>                </div>
+                    <i class="fa-solid fa-phone fa-xl"></i>
+                </div>
                 <div class="texte-footer">
                     <h3 class="text-light">Reservations</h3>
                     <p class="m-0">Lorem, ipsum dolor.</p>
@@ -795,7 +823,8 @@
             </div>
             <div class="minifooter text-coleur-link-navv d-flex gap-10 ">
                 <div class="icone-footer">
-                    <i class="fa-regular fa-clock fa-xl"></i>                </div>
+                    <i class="fa-regular fa-clock fa-xl"></i>
+                </div>
                 <div class="texte-footer">
                     <h3 class="text-light">Opening Hours</h3>
                     <p class="m-0">Lorem, ipsum dolor.</p>
@@ -805,13 +834,18 @@
             <div class="minifooter text-coleur-link-navv d-flex gap-10 ">
                 <div class="texte-footer">
                     <h3 class="text-light">Follow Us</h3>
-                    <i class="fa-brands fa-twitter fa-xs"></i>
-                    <i class="fa-brands fa-facebook fa-xs"></i>
-                    <i class="fa-brands fa-linkedin fa-xs"></i>
-                    <i class="fa-brands fa-instagram fa-sm"></i>
+                    <div class="fs-1 d-flex justify-content-center align-items-center gap-15 mt-30">                    
+                        <i class="fa-brands fa-twitter fa-xs"></i>
+                        <i class="fa-brands fa-facebook fa-xs"></i>
+                        <i class="fa-brands fa-linkedin fa-xs"></i>
+                        <i class="fa-brands fa-instagram fa-sm"></i>
+                    </div>
                 </div>
             </div>
 
+        </div>
+        <div class="copyrite p-20">
+            <p class="text-center text-coleur-link-navv">@Copyright <b>LionsResto.</b> All Rights Reserved</p>
         </div>
 
     </footer>
@@ -825,8 +859,36 @@
 
 
 
-
-
+    <!-- Modale  -->
+    <div class="modal1">
+        <div id="bg_darken" class="overlay ">
+            <button id="modal1" class="modal__close closeModal">
+                X
+            </button>
+    
+        </div>
+        <div class="div_modal modal " id="modal1">
+            <iframe width="100%" height="90%" src="https://www.youtube.com/embed/sTVnOdsM5H0?autoplay=1&mute=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="modal2">
+        <div id="bg_darken" class="overlay ">
+            <button id="modal22" class="modal__close closeModal">
+                X
+            </button>
+    
+        </div>
+        <div class="div_modal modal " id="modal22">
+            <iframe width="100%" height="90%" src="https://www.youtube.com/embed/fDx85uy-Mk8?autoplay=1&mute=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- end Modale  -->
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./public/js/app.js"></script>

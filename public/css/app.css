@@ -20404,6 +20404,10 @@ textarea.form-control-lg {
   margin: 0;
 }
 
+body {
+  margin-top: 10vh;
+}
+
 header {
   width: 100%;
   background-color: white;
@@ -20677,6 +20681,32 @@ header {
   width: 49%;
 }
 
+.section-events .events {
+  width: 75vw;
+}
+
+.section-gallery .gallery {
+  width: 75vw;
+}
+
+.btn-bookchadow {
+  cursor: pointer;
+  box-shadow: 0 0 7px #d11210;
+}
+
+.btn-bookchadow:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #d11210;
+}
+
+.btn-cox:hover {
+  background-color: #d46563 !important;
+}
+
+.iconeshadw:hover {
+  font-size: 70px !important;
+}
+
 @media (min-width: 768px) {
   .carde-2:hover {
     transform: scale(1.1);
@@ -20687,6 +20717,16 @@ header {
   }
   .input-cont {
     width: 48%;
+  }
+  .contact {
+    width: 75vw;
+  }
+  .contact .map {
+    width: 100%;
+    height: 30vh;
+  }
+  .contact .contact-form .info {
+    width: 49%;
   }
 }
 @media (max-width: 768px) {
@@ -20826,17 +20866,69 @@ header {
 }
 .foooter {
   width: 75vw;
+  border-bottom: solid 1px gray;
 }
 .foooter .minifooter {
   width: 24%;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.826);
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 50%;
+  display: none;
+}
+
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  border: none;
+  background-color: transparent;
+}
+
+.modal__footer__button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.show-modal {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 50%;
+  }
+}
 @media (max-width: 768px) {
   .foooter {
     width: 95vw;
   }
   .foooter .minifooter {
     width: 49%;
+  }
+  .modal {
+    width: 100%;
   }
 }
 @media (max-width: 768px) and (max-width: 426px) {
@@ -20845,6 +20937,10 @@ header {
   }
   .foooter .minifooter {
     width: 100%;
+  }
+  .modal {
+    width: 100%;
+    height: 30%;
   }
 }
 
