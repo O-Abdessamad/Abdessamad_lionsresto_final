@@ -1,10 +1,32 @@
+.foooter{
+    width: 75vw;
+    .minifooter{
+        width: 24%;
+    }
+}
+
+
+
+
+
 @media (min-width:768px) {
 }
 
 @media (max-width:768px) {
+    .foooter{
+        width: 95vw;
+        .minifooter{
+            width: 49%;
+        }
+    }
     
     @media (max-width:426px){
-        
+        .foooter{
+            width: 95vw;
+            .minifooter{
+                width: 100%;
+            }
+        }
     }
 
 }
