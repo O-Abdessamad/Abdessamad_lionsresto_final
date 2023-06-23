@@ -171,8 +171,34 @@
     }
 
 }
-// -----------------end section-nembers -----------------
 
+// -----------------end section-nembers -----------------
+// ----------------- section-choose-lions -----------------
+.section-form1{
+    .form1{
+        width: 75vw;
+        .form1-image{
+            width: 35%;
+            height: 500px;
+        }
+        .form1-form{
+            width: 65%;
+            height: 500px;
+            .form-stayle{
+                width: 90%;
+                .form-control{
+                    width: 30%;
+                }
+                .textarea{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+// -----------------end section-choose-lions -----------------
 
 
 
@@ -274,7 +300,7 @@
 
     }
     // -----------------end section-menu -----------------
-// ----------------- section-nembers -----------------
+// ----------------- section-chef -----------------
 .section-chef {
     .chef {
         width: 95vw;
@@ -288,7 +314,31 @@
     }
 
 }
-// -----------------end section-nembers -----------------
+// -----------------end section-chef -----------------
+// ----------------- section-form1 -----------------
+.section-form1{
+    .form1{
+        width: 95vw;
+        .form1-image{
+            width: 100%;
+        }
+        .form1-form{
+            width: 100%;
+            .form-stayle{
+                width: 100%;
+                .form-control{
+                    width: 48%;
+                }
+                .textarea{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+// -----------------end section-form1 -----------------
 
 
     @media (max-width:426px) {
@@ -357,6 +407,27 @@
 
 }
 // -----------------end section-nembers -----------------
+// ----------------- section-form1 -----------------
+.section-form1{
+    .form1{
+        .form1-image{
+            width: 100%;
+            height: 400px;
+        }
+        .form1-form{
+            width: 100%;
+            height: 600px;            
+            .form-stayle{
+                width: 100%;
+                .form-control{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+// -----------------end section-form1 -----------------
 
     }
 }

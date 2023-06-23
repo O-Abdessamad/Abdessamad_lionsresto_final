@@ -20556,6 +20556,27 @@ header {
   height: 30%;
 }
 
+.section-form1 .form1 {
+  width: 75vw;
+}
+.section-form1 .form1 .form1-image {
+  width: 35%;
+  height: 500px;
+}
+.section-form1 .form1 .form1-form {
+  width: 65%;
+  height: 500px;
+}
+.section-form1 .form1 .form1-form .form-stayle {
+  width: 90%;
+}
+.section-form1 .form1 .form1-form .form-stayle .form-control {
+  width: 30%;
+}
+.section-form1 .form1 .form1-form .form-stayle .textarea {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .carde-2:hover {
     transform: scale(1.1);
@@ -20620,6 +20641,24 @@ header {
     width: 48%;
     height: 600px;
   }
+  .section-form1 .form1 {
+    width: 95vw;
+  }
+  .section-form1 .form1 .form1-image {
+    width: 100%;
+  }
+  .section-form1 .form1 .form1-form {
+    width: 100%;
+  }
+  .section-form1 .form1 .form1-form .form-stayle {
+    width: 100%;
+  }
+  .section-form1 .form1 .form1-form .form-stayle .form-control {
+    width: 48%;
+  }
+  .section-form1 .form1 .form1-form .form-stayle .textarea {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) and (max-width: 426px) {
   .section-about .about {
@@ -20651,6 +20690,20 @@ header {
   .section-chef .chef .chef-cardes .card2-1 {
     width: 98%;
     height: 600px;
+  }
+  .section-form1 .form1 .form1-image {
+    width: 100%;
+    height: 400px;
+  }
+  .section-form1 .form1 .form1-form {
+    width: 100%;
+    height: 600px;
+  }
+  .section-form1 .form1 .form1-form .form-stayle {
+    width: 100%;
+  }
+  .section-form1 .form1 .form1-form .form-stayle .form-control {
+    width: 100%;
   }
 }
 
