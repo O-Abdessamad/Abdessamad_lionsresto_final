@@ -219,7 +219,7 @@
         }
 
         .contact-form {
-            height: 70vh;
+            height: 600px;
 
             .info {
                 width: 49%;
@@ -232,18 +232,41 @@
 // -----------------end section-form1 -----------------
 
 // ----------------- section-events -----------
-.section-events{
-    .events{
+.section-events {
+    .events {
         width: 75vw;
+        background-color: yellow;
+
+        .card-slid {
+            .card-slid-contenu {
+                background-color: blue;
+                height: 400px;
+                width: 350px;
+                background-image: url(../images/events-2.jpg);
+                background-size: cover;
+                background-position: center;
+                background-blend-mode: darken;
+                background-color: rgba(7, 7, 7, 0.609);
+
+                .prix-card {
+                    padding: 0;
+                    width: 60px;
+                    border-bottom: 2px solid rgb(135, 4, 4);
+                }
+            }
+        }
+
     }
 }
+
 // ----------------- end section-events -----------
 // ----------------- section-events -----------
-.section-gallery{
-    .gallery{
+.section-gallery {
+    .gallery {
         width: 75vw;
     }
 }
+
 // ----------------- end section-events -----------
 
 
@@ -261,17 +284,21 @@
     cursor: pointer;
     box-shadow: 0 0 7px #d11210,
 }
+
 .btn-bookchadow:hover {
     cursor: pointer;
     box-shadow: 0 0 10px #d11210,
 }
-.btn-cox:hover{
+
+.btn-cox:hover {
     background-color: #d46563 !important;
 
 }
-.iconeshadw:hover{
+
+.iconeshadw:hover {
     font-size: 70px !important;
 }
+
 // ------ end hovers -------------
 
 
@@ -363,7 +390,7 @@
     .section-nembers {
         .nembers {
             width: 95vw;
-            height: 35vh;
+            height: 250px;
 
             .nembers1 {
                 width: 100%;
@@ -445,7 +472,7 @@
             width: 95vw;
 
             .contact-form {
-                height: 70vh;
+                height: 600px;
 
                 .info {
                     width: 48%;
@@ -487,7 +514,7 @@
         // ----------------- section-nembers -----------------
         .section-nembers {
             .nembers {
-                height: 50vh;
+                height: 500px;
             }
         }
 
@@ -557,7 +584,7 @@
         .section-contact {
             .contact {
                 .contact-form {
-                    height: 105vh;
+                    height: 1000px;
 
                     .info {
                         width: 100%;

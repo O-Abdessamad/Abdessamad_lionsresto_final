@@ -20408,6 +20408,11 @@ body {
   margin-top: 10vh;
 }
 
+.style-darkmod {
+  background-color: #000;
+  color: white;
+}
+
 header {
   width: 100%;
   background-color: white;
@@ -20675,7 +20680,7 @@ header {
   height: 30vh;
 }
 .section-contact .contact .contact-form {
-  height: 70vh;
+  height: 600px;
 }
 .section-contact .contact .contact-form .info {
   width: 49%;
@@ -20683,6 +20688,22 @@ header {
 
 .section-events .events {
   width: 75vw;
+  background-color: yellow;
+}
+.section-events .events .card-slid .card-slid-contenu {
+  background-color: blue;
+  height: 400px;
+  width: 350px;
+  background-image: url(../images/events-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(7, 7, 7, 0.609);
+}
+.section-events .events .card-slid .card-slid-contenu .prix-card {
+  padding: 0;
+  width: 60px;
+  border-bottom: 2px solid rgb(135, 4, 4);
 }
 
 .section-gallery .gallery {
@@ -20761,7 +20782,7 @@ header {
   }
   .section-nembers .nembers {
     width: 95vw;
-    height: 35vh;
+    height: 250px;
   }
   .section-nembers .nembers .nembers1 {
     width: 100%;
@@ -20806,7 +20827,7 @@ header {
     width: 95vw;
   }
   .section-contact .contact .contact-form {
-    height: 70vh;
+    height: 600px;
   }
   .section-contact .contact .contact-form .info {
     width: 48%;
@@ -20824,7 +20845,7 @@ header {
     height: 350px !important;
   }
   .section-nembers .nembers {
-    height: 50vh;
+    height: 500px;
   }
   .section-menu .menu {
     width: 95vw;
@@ -20858,7 +20879,7 @@ header {
     width: 100%;
   }
   .section-contact .contact .contact-form {
-    height: 105vh;
+    height: 1000px;
   }
   .section-contact .contact .contact-form .info {
     width: 100%;

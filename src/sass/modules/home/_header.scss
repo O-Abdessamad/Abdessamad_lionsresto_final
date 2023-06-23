@@ -2,9 +2,14 @@
     padding: 0;
     margin: 0;
 }
-body{
-    margin-top: 10vh;
 
+body {
+    margin-top: 10vh;
+}
+
+.style-darkmod {
+    background-color: #000;
+    color: white;
 }
 
 header {
@@ -20,6 +25,7 @@ header {
 
         .nav-baar {
             width: 75%;
+
             .menubar {
                 li {
                     position: relative;

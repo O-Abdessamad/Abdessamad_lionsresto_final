@@ -55,13 +55,11 @@ for (let index = 0; index < btn_openModals.length; index++) {
         }        
     }    
 }
-
-
-
-
-
-
-
-
-
 // ------------- end Modal ------------------
+
+let div_body=document.querySelector("body");
+let btn_darkmod=document.querySelector(".btn-darkmod");
+
+btn_darkmod.addEventListener("click",()=>{
+    div_body.classList.toggle("style-darkmod");
+})
