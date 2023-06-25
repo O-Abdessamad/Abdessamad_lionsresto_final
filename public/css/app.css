@@ -20718,14 +20718,19 @@ header {
 }
 
 .section-events .events {
-  width: 75vw;
-  background-color: yellow;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  padding: 60px 0;
+  position: relative;
+}
+.section-events .events .card-slid {
+  height: 100%;
+  width: 100%;
 }
 .section-events .events .card-slid .card-slid-contenu {
-  background-color: blue;
-  height: 400px;
-  width: 350px;
-  background-image: url(../images/events-2.jpg);
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
@@ -20735,6 +20740,15 @@ header {
   padding: 0;
   width: 60px;
   border-bottom: 2px solid rgb(135, 4, 4);
+}
+.section-events .events .card-slid .card-slid-contenuimg1 {
+  background-image: url(../images/events-1.jpg);
+}
+.section-events .events .card-slid .card-slid-contenuimg2 {
+  background-image: url(../images/events-2.jpg);
+}
+.section-events .events .card-slid .card-slid-contenuimg3 {
+  background-image: url(../images/events-3.jpg);
 }
 
 .section-gallery .gallery {

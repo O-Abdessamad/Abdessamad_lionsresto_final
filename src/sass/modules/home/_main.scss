@@ -261,15 +261,18 @@
 // ----------------- section-events -----------
 .section-events {
     .events {
-        width: 75vw;
-        background-color: yellow;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1;
+        padding: 60px 0;
+        position: relative;
 
         .card-slid {
+            height: 100%;
+                width: 100%;
             .card-slid-contenu {
-                background-color: blue;
-                height: 400px;
-                width: 350px;
-                background-image: url(../images/events-2.jpg);
+                height: 100%;
+                width: 100%;
                 background-size: cover;
                 background-position: center;
                 background-blend-mode: darken;
@@ -280,6 +283,18 @@
                     width: 60px;
                     border-bottom: 2px solid rgb(135, 4, 4);
                 }
+            }
+            .card-slid-contenuimg1{
+                background-image: url(../images/events-1.jpg);
+
+            }
+            .card-slid-contenuimg2{
+                background-image: url(../images/events-2.jpg);
+
+            }
+            .card-slid-contenuimg3{
+                background-image: url(../images/events-3.jpg);
+
             }
         }
 
@@ -369,6 +384,7 @@
             }
         }
     }
+    
 }
 
 @media (max-width:768px) {
