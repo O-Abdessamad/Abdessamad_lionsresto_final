@@ -20720,8 +20720,9 @@ header {
 .section-events .events {
   width: 100%;
   background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 60px;
   z-index: 1;
-  padding: 60px 0;
   position: relative;
 }
 .section-events .events .card-slid {
@@ -20752,7 +20753,9 @@ header {
 }
 
 .section-gallery .gallery {
-  width: 75vw;
+  width: 75%;
+  padding: 20px 0;
+  overflow: hidden;
 }
 
 .btn-bookchadow {
@@ -20858,6 +20861,9 @@ header {
     width: 48%;
     height: 600px;
   }
+  .section-gallery .gallery {
+    width: 85%;
+  }
   .section-form1 .form1 {
     width: 95vw;
   }
@@ -20929,6 +20935,9 @@ header {
     width: 100%;
   }
   .section-form1 .form1 .form1-form .form-stayle .form-control {
+    width: 100%;
+  }
+  .section-gallery .gallery {
     width: 100%;
   }
   .section-contact .contact .contact-form {

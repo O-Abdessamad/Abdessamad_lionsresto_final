@@ -183,7 +183,8 @@
                     right: 0;
                     display: none;
                 }
-                .show-anemation{
+
+                .show-anemation {
                     display: block;
                 }
             }
@@ -196,11 +197,18 @@
     animation: myfirst 0.5s 1;
     animation-direction: alternate;
 }
+
 @keyframes myfirst {
-    0%   { right: -70px; top: 90px;}
-  
-    100% { right: 0px; top: 90px;}
-  }
+    0% {
+        right: -70px;
+        top: 90px;
+    }
+
+    100% {
+        right: 0px;
+        top: 90px;
+    }
+}
 
 
 // -----------------end section-nembers -----------------
@@ -263,13 +271,16 @@
     .events {
         width: 100%;
         background-color: transparent;
+        padding-top: 20px;
+        padding-bottom: 60px;
         z-index: 1;
-        padding: 60px 0;
+
         position: relative;
 
         .card-slid {
             height: 100%;
-                width: 100%;
+            width: 100%;
+
             .card-slid-contenu {
                 height: 100%;
                 width: 100%;
@@ -284,15 +295,18 @@
                     border-bottom: 2px solid rgb(135, 4, 4);
                 }
             }
-            .card-slid-contenuimg1{
+
+            .card-slid-contenuimg1 {
                 background-image: url(../images/events-1.jpg);
 
             }
-            .card-slid-contenuimg2{
+
+            .card-slid-contenuimg2 {
                 background-image: url(../images/events-2.jpg);
 
             }
-            .card-slid-contenuimg3{
+
+            .card-slid-contenuimg3 {
                 background-image: url(../images/events-3.jpg);
 
             }
@@ -305,7 +319,9 @@
 // ----------------- section-events -----------
 .section-gallery {
     .gallery {
-        width: 75vw;
+        width: 75%;
+        padding: 20px 0;
+        overflow: hidden;
     }
 }
 
@@ -344,7 +360,8 @@
 .forme-contactshadow {
     box-shadow: 0 0 5px #00000075,
 }
-.preorete{
+
+.preorete {
     z-index: 111;
 }
 
@@ -369,6 +386,7 @@
         width: 48%;
     }
 
+
     .contact {
         width: 75vw;
 
@@ -384,7 +402,7 @@
             }
         }
     }
-    
+
 }
 
 @media (max-width:768px) {
@@ -487,6 +505,17 @@
     }
 
     // -----------------end section-chef -----------------
+        // ----------------- section-events -----------
+        .section-gallery {
+            .gallery {
+                width: 85%;
+            }
+        }
+    
+        // ----------------- end section-events -----------
+    
+    
+    
     // ----------------- section-form1 -----------------
     .section-form1 {
         .form1 {
@@ -630,6 +659,15 @@
         }
 
         // -----------------end section-form1 -----------------
+                // ----------------- section-events -----------
+                .section-gallery {
+                    .gallery {
+                        width: 100%;
+                    }
+                }
+            
+                // ----------------- end section-events -----------
+            
         // ----------------- section-contact -----------------
         .section-contact {
             .contact {

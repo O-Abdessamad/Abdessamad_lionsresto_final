@@ -1,0 +1,81 @@
+.mycarocel2-container{
+    width: 22%;
+    margin: 10px auto;
+
+}
+.tranfoorm{
+    transform: scale(1.199) !important;
+
+}
+.mycarocel2-carousel{
+    border: 6px solid #cb1515;
+    padding: 5px;
+    height: 180px;
+    width: 100%;
+
+}
+.mycarocel2-slider{
+    height: 100%;
+    display: flex;
+    transition: all 0.3s;
+    width: 600%;
+
+}
+.mycarocel2-slider section{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-basis: 100%;
+    margin: 20px;
+    transition: all 0.5s;
+
+}
+
+.mycarocel2-controls .mycarocel2-ul {
+    left: 50%;
+    bottom: 5px;
+    transform: translate(-50%);
+    list-style: none;
+    display: flex;
+}
+.mycarocel2-controls .mycarocel2-ul .mycarocel2-li {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    margin-left: 2px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.mycarocel2-controls .mycarocel2-ul .mycarocel2-li.selcted2{
+    background-color: red;
+}
+
+@media (max-width:768px) {
+    .mycarocel2-container{
+        width: 34%;
+        margin: 0px ;
+    
+    }
+    .tranfoorm{
+        transform: scale(1) !important;
+    
+    }
+    .mycarocel2-carousel{
+        border: 0px ;
+        padding: 0px;
+    
+    }
+    
+}
+@media (max-width:426px) {
+    .mycarocel2-container{
+        width: 100% ;
+
+    }
+
+    .mycarocel2-carousel{
+        height: 250px;
+    }
+    
+}
