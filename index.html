@@ -66,7 +66,7 @@
             <div class="d-flex align-items-center gap-10">
                 <!-- end link menu -->
                 <div class="conexion">
-                    <button type="button" class="btn btn-danger btn-cox rounded-5 ps-20 pe-20">Connexion</button>
+                    <button type="button" class="btn btn-danger btn-cox rounded-5 ps-20 pe-20 btn_openModal" id="modal33">Connexion</button>
                 </div>
                 <!-- menu-bergre -->
                 <div class="menu-bergre d-lg-none">
@@ -133,8 +133,8 @@
             <div class="image-cover ">
                 <img src="./public/images/hero-img.png" alt="">
             </div>
-            <div class="text-cover font-roboto ">
-                <div class="text-cover1 font-cover text-dark ">
+            <div class="text-cover font-roboto  text-dark ">
+                <div class="text-cover1 font-cover ">
                     <h1>ENJOY YOUR HEALTHY</h1>
                     <h1>DELICIOUS FOOD</h1>
                 </div>
@@ -167,10 +167,9 @@
                 </div>
                 <div class="conetue-about d-lg-flex gap-lg-20">
                     <div class="image-about d-flex justify-content-center align-items-end pb-30">
-
                         <div
                             class="text-image-about bg-light d-flex justify-content-center align-items-center flex-column ">
-                            <h2>Book a Table</h2>
+                            <h2 class="text-dark">Book a Table</h2>
                             <h2 class="text-coleur-conx">+1 5589 55488 55</h2>
                         </div>
                     </div>
@@ -698,7 +697,7 @@
                             <section class="mycarocel-section">Content for section 6</section>
                         </div>
                         <div class="mycarocel-controls">
-                            <ul class="mycarocel-ul">
+                            <ul class="mycarocel-ul m-0">
                                 <li class="mycarocel-li"></li>
                                 <li class="mycarocel-li mycarocel-selcted"></li>
                                 <li  class="mycarocel-li"></li>
@@ -830,7 +829,7 @@
 
         </section>
         <section class="section-gallery d-flex justify-content-center align-items-center bg-coleur-cover flex-column  pb-30 pt-30">
-            <div class="titre-gallery text-center ">
+            <div class="titre-gallery text-center  text-dark">
                 <h6 class="text-coleur-link-navv ">GALLERY</h6>
                 <h2 class="font-cover fs-1">CHECK <span class="text-coleur-conx">OUR GALLERY</span></h2>
             </div>
@@ -861,7 +860,7 @@
                     </div>
                 </div>
                 <div class="mycarocel2-controls  mt-20 mt-lg-30">
-                    <ul class="mycarocel2-ul position-absolute">
+                    <ul class="mycarocel2-ul position-absolute m-0">
                         <li class="mycarocel2-li "></li>
                         <li class="mycarocel2-li "></li>
                         <li class="mycarocel2-li selcted2"></li>
@@ -889,7 +888,7 @@
                     <div class="infos text-dark  pt-30 pb-30 d-flex justify-content-between align-items-center flex-wrap gap-20">
                         <div class="info d-flex justify-content-start align-items-center p-20 bg-coleur-cover gap-10">
                             <div class="info-icone bg-coleur-conx p-20 rounded-circle">
-                                <i class="fa-solid fa-map-location-dot fa-2xl text-light"></i>
+                                <i class="fa-solid fa-map-location-dot fa-xl text-light"></i>
                             </div>
                             <div class="info-texte">
                                 <h4 class="m-0">Our Address</h4>
@@ -950,9 +949,6 @@
             </div>
 
         </section>
-
-
-
     </main>
     <footer class="bg-coleur-footer d-flex justify-content-center align-items-center flex-column p-30 mt-30">
         <div class="foooter d-flex justify-content-between align-items-start flex-wrap gap-10 p-20 ">
@@ -1005,7 +1001,7 @@
 
     </footer>
 
-    <button class="btn btn-danger position-fixed bottom-0 end-0 preorete "> <a class=" m-20 text-decoration-none text-light" href="#cover "> ^ </a></button>
+    <button class="btn btn-danger position-fixed bottom-0 end-0 preorete "> <a class=" m-20 text-decoration-none text-light"  href="# "> ^ </a></button>
     <button class="btn-darkmod btn  position-fixed bottom-0 start-0 preorete"> <i class="fa-solid fa-circle-half-stroke fa-2xl fs-1 text-coleur-conx p-20"></i> </button>
 
 
@@ -1044,6 +1040,38 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="modal3 ">
+        <div id="bg_darken" class="overlay ">
+            <button id="modal33" class="modal__close closeModal">
+                X
+            </button>
+
+        </div>
+        <div class=" div_modal modal widthmodla" id="modal33">
+            <div class="maincox">  	
+                <input type="checkbox" id="chkcox" aria-hidden="true">
+        
+                    <div class="signupcox">
+                        <form>
+                            <label class="labelcox font-cover" for="chkcox" aria-hidden="true">Sign up</label>
+                            <input class="inputcox" type="text" name="txt" placeholder="User name" required="">
+                            <input class="inputcox" type="email" name="email" placeholder="Email" required="">
+                            <input class="inputcox" type="password" name="pswd" placeholder="Password" required="">
+                            <button class="buttoncox bgcx">Sign up</button>
+                        </form>
+                    </div>
+        
+                    <div class="logincox">
+                        <form>
+                            <label class="labelcox font-cover" for="chkcox" aria-hidden="true">Login</label>
+                            <input class="inputcox" type="email" name="email" placeholder="Email" required="">
+                            <input class="inputcox" type="password" name="pswd" placeholder="Password" required="">
+                            <button class="buttoncox">Login</button>
+                        </form>
+                    </div>
+            </div>
         </div>
     </div>
     <!-- end Modale  -->

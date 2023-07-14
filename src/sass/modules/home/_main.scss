@@ -332,8 +332,21 @@
 
 
 
+.tesset{
+    color: red;
+    background-color: aqua;
+}
+.tesset:active{
+    color: green; 
+    background-color: antiquewhite;   
+}  
+.ptst{
+    cursor: pointer;
+}
 
-
+.ptst:active{
+    color: #a9a6a6;
+}
 
 
 
@@ -505,17 +518,17 @@
     }
 
     // -----------------end section-chef -----------------
-        // ----------------- section-events -----------
-        .section-gallery {
-            .gallery {
-                width: 85%;
-            }
+    // ----------------- section-events -----------
+    .section-gallery {
+        .gallery {
+            width: 85%;
         }
-    
-        // ----------------- end section-events -----------
-    
-    
-    
+    }
+
+    // ----------------- end section-events -----------
+
+
+
     // ----------------- section-form1 -----------------
     .section-form1 {
         .form1 {
@@ -551,7 +564,7 @@
             width: 95vw;
 
             .contact-form {
-                height: 600px;
+                height: 700px;
 
                 .info {
                     width: 48%;
@@ -659,15 +672,15 @@
         }
 
         // -----------------end section-form1 -----------------
-                // ----------------- section-events -----------
-                .section-gallery {
-                    .gallery {
-                        width: 100%;
-                    }
-                }
-            
-                // ----------------- end section-events -----------
-            
+        // ----------------- section-events -----------
+        .section-gallery {
+            .gallery {
+                width: 100%;
+            }
+        }
+
+        // ----------------- end section-events -----------
+
         // ----------------- section-contact -----------------
         .section-contact {
             .contact {
