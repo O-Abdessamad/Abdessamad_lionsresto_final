@@ -21189,4 +21189,7 @@ header {
     width: 100%;
     height: 30%;
   }
+  .widthmodla {
+    height: 70% !important;
+  }
 }
